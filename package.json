@@ -1,0 +1,31 @@
+{
+  "name": "cloud-health-api",
+  "version": "1.0.0",
+  "description": "A minimal REST API deployed to cloud using Docker + GitHub Actions + Bash automation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erangamadhushan/Cloud-Health-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Erangamadhushan/Cloud-Health-API/issues"
+  },
+  "homepage": "https://github.com/Erangamadhushan/Cloud-Health-API#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
